@@ -27,8 +27,9 @@ We have two different run options:
 3. From project folder create Docker image `docker build -t my-application .`
 4. Run docker container `docker run -p 8080:8080 my-application`
 5. Сheck with Curl the cases I gave above.
-
+   
    As a result you should see:
+   P.S. sorry about this responces, but docker container didn't understand \n , so that is the reason why the answers look a little strange, but the      normal answers can be seen below in the following pictures.
    
    ![docker_app](https://user-images.githubusercontent.com/73239084/232798122-8bb32865-a59b-4a26-b043-bd457083f65b.jpg)
    ![docker_divisor_case](https://user-images.githubusercontent.com/73239084/232798347-aaa46e1f-c6e0-4de5-8790-203d5d5ea73c.jpg)
@@ -38,9 +39,12 @@ We have two different run options:
    
 ###### For SBT Run:
 
-1. Just run sbt run
+1. Just use `sbt run` commannd and open localhost in browser
 
    As a result you should see:
+   ![chrome_divisor_case](https://user-images.githubusercontent.com/73239084/232800242-42698ff1-6555-40fb-8465-e33d49af7906.jpg)
+   ![chrome_default_case](https://user-images.githubusercontent.com/73239084/232800538-a270cdb4-e908-4889-8c4e-e1a76da36ab4.jpg)
+   ![Chrome_badrequest_case](https://user-images.githubusercontent.com/73239084/232800613-8b5fdb7a-00cf-4ad6-a573-458ce82b7b71.jpg)
 
 ### Tests
 
