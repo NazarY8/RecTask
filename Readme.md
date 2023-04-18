@@ -29,7 +29,13 @@ We have two different run options:
 5. Сheck with Curl the cases I gave above.
 
    As a result you should see:
+   
+   ![docker_app](https://user-images.githubusercontent.com/73239084/232798122-8bb32865-a59b-4a26-b043-bd457083f65b.jpg)
+   ![docker_divisor_case](https://user-images.githubusercontent.com/73239084/232798347-aaa46e1f-c6e0-4de5-8790-203d5d5ea73c.jpg)
+   ![default_docker_case](https://user-images.githubusercontent.com/73239084/232798429-2c177021-ff99-4885-8fa5-a2f696a99187.jpg)
+   ![Docker_BadRequest_case](https://user-images.githubusercontent.com/73239084/232798488-36b7a90e-52fb-4d0c-82de-b7eb49871e50.jpg)
 
+   
 ###### For SBT Run:
 
 1. Just run sbt run
