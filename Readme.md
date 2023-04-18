@@ -42,6 +42,7 @@ We have two different run options:
 1. Just use `sbt run` commannd and open localhost in browser
 
    As a result you should see:
+
    ![chrome_divisor_case](https://user-images.githubusercontent.com/73239084/232800242-42698ff1-6555-40fb-8465-e33d49af7906.jpg)
    ![chrome_default_case](https://user-images.githubusercontent.com/73239084/232800538-a270cdb4-e908-4889-8c4e-e1a76da36ab4.jpg)
    ![Chrome_badrequest_case](https://user-images.githubusercontent.com/73239084/232800613-8b5fdb7a-00cf-4ad6-a573-458ce82b7b71.jpg)
